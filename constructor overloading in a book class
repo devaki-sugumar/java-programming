@@ -1,0 +1,19 @@
+import java.util.*;
+class Book{
+    Book(String s,String b){
+        System.out.println("BOOK: "+s);
+        System.out.println("BOOK-1: "+b);
+}
+   Book(int a){
+       System.out.println(a);
+   }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        String b=sc.nextLine();
+        int a=sc.nextInt();
+        Book obj=new Book(s,b);
+        Book obj1=new Book("BOOk No: "+a);
+    
+        }    
+        }
